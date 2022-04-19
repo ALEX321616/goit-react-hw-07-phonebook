@@ -1,4 +1,4 @@
-import { useDeleteContactMutation } from 'components/ApiService/ContactApi';
+import { useDeleteContactMutation } from 'ApiService/ContactApi';
 import s from './ContactItem.module.css';
 import { toast } from 'react-toastify';
 

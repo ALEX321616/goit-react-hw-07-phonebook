@@ -3,7 +3,7 @@ import s from './ContactForm.module.css';
 import {
   useAddContactMutation,
   useGetContactsQuery,
-} from 'components/ApiService/ContactApi';
+} from 'ApiService/ContactApi';
 import { toast } from 'react-toastify';
 
 const ContactForm = () => {
