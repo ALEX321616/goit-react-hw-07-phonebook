@@ -3,7 +3,7 @@ import ContactList from './ContactList/ContactList';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Filter from './Filter/Filter';
-import { Context } from '../context';
+import { Context } from 'context/context';
 import { useState } from 'react';
 
 const App = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useGetContactsQuery } from 'ApiService/ContactApi';
 import { useContext } from 'react';
-import { Context } from 'context';
+import { Context } from 'context/context';
 import { PushSpinner } from 'react-spinners-kit';
 import s from './ContactList.module.css';
 import ContactItem from '../ContactItem/ContactItem';
